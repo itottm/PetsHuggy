@@ -1,6 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  background-color: #f8f8f8;
+  color: #222;
+}
+
 .jumbotron {
   padding-top: 0;
   background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05) ), url(person-845325_1920.jpg);
@@ -31,4 +36,26 @@
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
+}
+
+.navbar-devise {
+  background: #fff;
+  border-color: #fff;
+  z-index: 10;
+}
+
+.navbar-devise .navbar-nav > li > a {
+  color: #222;
+  font-size: 13px;
+}
+
+.navbar-devise .navbar-brand {
+  color: #222;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: transparent;
+  color: #555;
 }
